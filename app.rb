@@ -7,9 +7,7 @@ class App < Sinatra::Base
     end
 
     post '/team' do
-        params.each do |param|
-            param
-        end
+        params.to_s
     end
 
 
